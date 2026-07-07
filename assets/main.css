@@ -1,0 +1,20 @@
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+blockquote {
+  border-left: 2px solid gray;
+  padding: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin: 4px;
+}
+
+pre, code {
+  font-family: monospace;
+}
+
+ul {
+  padding-inline-start: 16px;
+}

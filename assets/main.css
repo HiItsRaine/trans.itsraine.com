@@ -1,10 +1,24 @@
+:root {
+    --ir-fg: #ffffff;
+    --ir-bg: #1a1a1a;
+    --ir-gray: gray;
+    --ir-ray-red: #ff1f1f;
+    --ir-ray-yellow: #ffc610;
+    --ir-ray-green: #3d9b00;
+    --ir-ray-blue: #00a7e1;
+}
+
+html {
+  color: var(--ir-fg);
+  background-color: var(--ir-bg);
+}
+
 a {
-  color: blue;
   text-decoration: underline;
 }
 
 blockquote {
-  border-left: 2px solid gray;
+  border-left: 2px solid var(--ir-gray);
   padding: 8px;
   padding-top: 12px;
   padding-bottom: 12px;
